@@ -1,0 +1,129 @@
+#introduction_info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#welcome{
+    width: 60%;
+}
+
+#upcoming_events{
+    background-color: #0E0814;
+    border: 4px solid #56AFF8;
+    border-radius: 10px;
+    color: white;
+    width: 30%;
+    padding: 10px;
+}
+
+#main_info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info{
+    background-color: #D552B0;
+    border: 4px solid #D552B0;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    color: #0E0814;
+    transition: border 0.5s, background-color 0.5s, color 0.5s;
+}
+
+.info:hover{
+    background-color: #2d74ad;
+    border: 4px solid #0E0814;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    transition-timing-function: ease-in;
+}
+
+h1{
+    color: #D552B0;
+    font-size: 3rem;
+    font-family: 'Courier New', 'Courier', 'monospace';
+}
+
+h2{
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Courier New', 'Courier', 'monospace';
+}
+
+h3{
+    color: #D552B0;
+    font-size: 1.25rem;
+    font-family: 'Courier New', 'Courier', 'monospace';
+}
+
+button{
+    border: 6px solid #D552B0;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    width: 200px;
+    height: 75px;
+    color: #D552B0;
+    font-size: 1.5rem;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    transition: border 0.5s, background-color 0.5s, color 0.5s, transform 0.5s, boxshadow 0.5s;
+}
+
+button:hover{
+    transform: translateY(-15px);
+    box-shadow: 0px 5px 20px #56AFF8;
+    border: 6px solid #56AFF8;
+    color: white;
+    transition-timing-function: ease-in;
+    cursor: pointer;
+}
+
+#events{
+    color: white;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Courier New', 'Courier', 'monospace';
+}
+
+#navigation{
+    background-image: url(computer.jpg);
+    padding: 25px;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+footer{
+    text-align: right;
+}
+
+#footer_p{
+    color: #D552B0;
+    font-size: 1rem;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-weight: bold;
+}
+
+li{
+    font-size: 1rem;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    font-weight: bold;
+}
+
+#members{
+    display: flex;
+    justify-content: left;
+}
+
+#projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#projects_h2{
+    margin-left: 10px;
+}
